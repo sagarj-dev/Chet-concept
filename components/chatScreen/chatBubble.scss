@@ -1,0 +1,36 @@
+.chatBubble {
+  margin: 1rem;
+}
+
+.chatMsg {
+  background-color: var(--background-clr-grey);
+  width: fit-content;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+  color: var(--font-clr);
+  span {
+    position: absolute;
+    bottom: 0;
+    color: white;
+  }
+  .msgRead {
+    color: #85e2ff;
+  }
+}
+
+.chatMsgTime {
+  color: var(--font-clr-grey);
+  font-size: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+.chatBubble-user {
+  align-self: flex-end;
+
+  .chatMsg {
+    background-color: var(--clr-p);
+    color: white;
+  }
+}

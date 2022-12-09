@@ -1,0 +1,18 @@
+.rightSidebarHeader {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+
+  i {
+    display: grid;
+    place-items: center;
+    color: var(--font-clr-grey);
+    font-size: 1.5rem;
+    align-self: center;
+  }
+  h5 {
+    color: var(--font-clr);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+}

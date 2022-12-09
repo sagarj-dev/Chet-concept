@@ -1,0 +1,8 @@
+@import "./chatScreenHeader.scss";
+@import "./chatBox.scss";
+@import "./chatBubble.scss";
+
+.chatScreen {
+  border-left: 2px solid var(--background-clr-grey);
+  border-right: 2px solid var(--background-clr-grey);
+}

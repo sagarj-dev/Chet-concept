@@ -1,0 +1,87 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+
+  h5 {
+    color: var(--font-clr);
+    font-size: 22px;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: var(--font-clr-grey);
+    font-size: 12px;
+  }
+
+  > div {
+    display: flex;
+
+    div {
+      margin: 1rem 0.3rem 0 0.3rem;
+    }
+  }
+}
+
+.profileAbout {
+  margin-top: 2rem;
+  h5 {
+    color: var(--font-clr);
+  }
+  p {
+    color: var(--font-clr-grey);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.profileMedia {
+  margin-top: 1rem;
+  h5 {
+    color: var(--font-clr);
+    font-size: 14px;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 7px;
+    }
+  }
+}
+
+.profileMuteNotification {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    color: var(--font-clr);
+  }
+}
+
+.disMsg {
+  margin-top: 0.5rem;
+  h5 {
+    color: var(--font-clr);
+  }
+  p {
+    margin-top: 0.5rem;
+    color: var(--font-clr-grey);
+  }
+}
+
+.rightSidebarActions {
+  margin-top: 1rem;
+}

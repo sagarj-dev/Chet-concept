@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+$font: "Roboto", sans-serif;
+
+:root {
+  --clr-p: #61c554;
+  --background-clr: #fff;
+  --background-clr-grey: #e8ecef;
+  --font-clr: #000000;
+  --font-clr-grey: #8a8a8a;
+}
+[data-theme="dark"] {
+  --clr-p: #61c554;
+  --background-clr: #131313;
+  --background-clr-grey: #000;
+  --font-clr: #fff;
+  --font-clr-grey: #8a8a8a;
+}

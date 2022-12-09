@@ -1,0 +1,24 @@
+@import "./vars";
+@import "../components/screen.scss";
+@import "../components/leftSidebar/leftSidebar.scss";
+@import "../components/chatScreen/chatScreen.scss";
+@import "../components/common/RoundIconButton.scss";
+@import "../components/common/actionButton.scss";
+@import "../components/common/actionButton.scss";
+@import "../components/common/tooglSwitch.scss";
+@import "../components/rightSidebar/rightSidebar.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+@import "./chatListSingle.scss";
+
+.chatList {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  max-height: min-content;
+  .chatListTitle {
+    margin: 1rem;
+
+    span {
+      margin-left: 1rem;
+      font-weight: 500;
+      color: var(--font-clr-grey);
+    }
+  }
+}

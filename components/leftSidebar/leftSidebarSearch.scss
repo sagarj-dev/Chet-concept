@@ -1,0 +1,31 @@
+.leftSidebarSearch {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.leftSidebarSearch-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background-color: var(--background-clr-grey);
+  color: var(--font-clr-grey);
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+
+  svg {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--font-clr);
+    &*:focus {
+      outline: none;
+    }
+  }
+}

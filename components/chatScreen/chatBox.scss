@@ -1,0 +1,51 @@
+.chatBox {
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addMsg {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.msgBox {
+  width: 91%;
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  background-color: var(--background-clr-grey);
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--font-clr-grey);
+
+  input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 0 1rem;
+    color: black;
+    &*:focus {
+      outline: none;
+    }
+  }
+}
+
+.voicIcon {
+  background-color: var(--clr-p);
+  color: white;
+  font-size: 1.8rem;
+  height: 3rem;
+  width: 3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+}
